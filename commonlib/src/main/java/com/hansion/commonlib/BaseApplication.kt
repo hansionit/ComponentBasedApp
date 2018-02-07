@@ -14,7 +14,7 @@ open class BaseApplication : Application() {
 
     companion object {
         //Context
-        private var mInstance: Application? = null
+        private var mInstance: BaseApplication? = null
         var isDebug = true
         //For get Global Context
         val appContext: Context
@@ -22,7 +22,7 @@ open class BaseApplication : Application() {
                 return if (mInstance != null) {
                     mInstance as Application
                 } else {
-                    mInstance = Application()
+                    mInstance = BaseApplication()
                     mInstance!!.onCreate()
                     mInstance as Application
                 }
