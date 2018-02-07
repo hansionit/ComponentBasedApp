@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/i_our"
+        android:checked="true"
+        android:icon="@drawable/selector_bottom_tab_our"
+        android:title="我们" />
+    <item
+        android:id="@+id/i_timeline"
+        android:icon="@drawable/selector_bottom_tab_timeline"
+        android:title="点滴" />
+    <item
+        android:id="@+id/i_found"
+        android:icon="@drawable/selector_bottom_tab_more"
+        android:title="发现" />
+    <item
+        android:id="@+id/i_me"
+        android:icon="@drawable/selector_bottom_tab_me"
+        android:title="我的" />
+</menu>
